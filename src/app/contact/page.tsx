@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-800 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               disabled={status === "loading"}
             >
               {status === "loading" ? "Sending..." : "Send Message"}
@@ -109,12 +109,12 @@ const Contact: React.FC = () => {
           </div>
 
           {status === "success" && (
-            <p className="text-green-500 text-center">
+            <p className="text-green-700 text-center">
               Message sent successfully!
             </p>
           )}
           {status === "error" && (
-            <p className="text-red-500 text-center">{errorMessage}</p>
+            <p className="text-red-700 text-center">{errorMessage}</p>
           )}
         </form>
       </div>

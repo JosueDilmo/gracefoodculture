@@ -6,7 +6,7 @@ export default function Home() {
         <span>G</span>
         <span>R</span>
         {/* Custom A as /\ */}
-        <span className="relative text-4xl sm:text-5xl md:text-6xl font-medium mx-2">
+        <span className="relative text-[36px] sm:text-[48px] md:text-[56px] font-medium mx-2">
           <span className="absolute right-[13.5px] sm:right-[16px] md:right-[22px] top-0">
             /
           </span>
@@ -39,7 +39,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 my-4 sm:my-8">
         <a
           href="contact"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-blue-500 text-white rounded-md hover:bg-blue-700 text-sm sm:text-base"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-green-800 text-white rounded-md hover:bg-green-900 text-sm sm:text-base"
         >
           Contact & Reservations
         </a>
@@ -47,7 +47,7 @@ export default function Home() {
           href="https://maps.app.goo.gl/Z39iUTBrLEFd4UE17"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-green-500 text-white rounded-md hover:bg-green-700 text-sm sm:text-base"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-green-800 text-white rounded-md hover:bg-green-900 text-sm sm:text-base"
         >
           Find Us on Google Maps
         </a>
