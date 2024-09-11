@@ -33,8 +33,8 @@ export default function Home() {
         Coming soon
       </p>
 
-      {/* Buttons */}
-      <div className="space-x-2 sm:space-x-4 my-4 sm:my-8">
+      {/* Buttons - stacked on small screens, side by side on larger */}
+      <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 my-4 sm:my-8">
         <a
           href="contact"
           className="px-4 sm:px-6 py-2 sm:py-3 bg-blue-500 text-white rounded-md hover:bg-blue-700 text-sm sm:text-base"
