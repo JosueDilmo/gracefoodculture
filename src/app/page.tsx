@@ -7,10 +7,10 @@ export default function Home() {
         <span>R</span>
         {/* Custom A as /\ */}
         <span className="relative text-4xl sm:text-5xl md:text-6xl font-medium mx-2">
-          <span className="absolute right-[10px] sm:right-[16px] md:right-[20px] top-0">
+          <span className="absolute right-[13.5px] sm:right-[16px] md:right-[22px] top-0">
             /
           </span>
-          <span className="absolute left-[12px] sm:left-[20px] md:left-[24px] top-0">
+          <span className="absolute left-[13.5px] sm:left-[16px] md:left-[22px] top-0">
             \
           </span>
           {/* Invisible placeholder for letter spacing */}
