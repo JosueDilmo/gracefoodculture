@@ -21,9 +21,11 @@ export default function Home() {
       </div>
 
       {/* Subtitle */}
-      <h2 className="text-base sm:text-lg md:text-xl font-light tracking-widest mt-4">
-        food & coffee culture
-      </h2>
+      <div className="sm:ml-0 md:-ml-2">
+        <h2 className="text-base sm:text-xl md:text-2xl font-light tracking-[3.5px] mt-1">
+          food & coffee culture
+        </h2>
+      </div>
 
       {/* Coming Soon */}
       <p
@@ -54,7 +56,7 @@ export default function Home() {
       {/* Address */}
       <div className="my-4 sm:my-8">
         <p className="text-sm sm:text-lg md:text-xl text-center">
-          Mullingar Presbyterian Church, Old, 10 Castle St <br />
+          Old Presbyterian Church, 10 Castle St <br />
           Mullingar, Co. Westmeath, N91HN83
         </p>
       </div>
