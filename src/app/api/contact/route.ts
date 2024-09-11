@@ -20,8 +20,8 @@ export async function POST(req: NextRequest) {
     // Send the email using the transporter
     await transporter.sendMail({
       from: email,
-      to: "gracefoodculture@gmail.com", // The recipient email address
-      subject: `New Contact Message from ${name}`,
+      to: "info@gracefoodculture", // The recipient email address
+      subject: `Contact from ${name}`,
       text: message,
       html: `
         <h1>New Message from ${name}</h1>
