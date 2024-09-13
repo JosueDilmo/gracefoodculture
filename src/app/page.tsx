@@ -14,7 +14,7 @@ export default function Home() {
     animate-pulse tracking-[6px] sm:tracking-[8px] md:tracking-[32px] 
     text-xl sm:text-2xl md:text-3xl lg:text-4xl my-6 sm:my-10 md:my-12 
     relative inline-block font-montserrat font-thin
-    before:absolute before:inset-0 before:animate-typewriter before:bg-grace-landing-100 
+    before:absolute before:inset-0 before:animate-typewriter before:bg-grace-color-100 
     after:absolute after:inset-0 after:w-[0.1em] after:animate-caret after:bg-white"
       >
         coming soon
