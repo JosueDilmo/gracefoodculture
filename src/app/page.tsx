@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-grace-landing-100 text-white font-montserrat px-4 md:px-8">
+    <main className="flex flex-col items-center justify-center min-h-screen bg-grace-color-100 text-white font-montserrat px-4 md:px-8">
       {/* Logo GRACE */}
       <img
         src="/GFC.png"
@@ -21,7 +21,7 @@ export default function Home() {
       </p>
 
       {/* Social Media QR code */}
-      <div>
+      <div className="bg-grace-color-500 -border-4 rounded-xl">
         <a
           href="https://www.instagram.com/gracefoodcoffeeculture"
           target="_blank"
