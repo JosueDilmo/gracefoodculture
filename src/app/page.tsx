@@ -43,7 +43,7 @@ export default function Home() {
       <div className="flex flex-col font-light sm:flex-row sm:space-x-16 space-y-4 sm:space-y-0 my-6 sm:my-8">
         <a
           href="contact"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black border-2 border-black text-sm sm:text-base md:text-lg transition-colors duration-300"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
         >
           Contact & Reservations
         </a>
@@ -51,7 +51,7 @@ export default function Home() {
           href="https://maps.app.goo.gl/Z39iUTBrLEFd4UE17"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black border-2 border-black text-sm sm:text-base md:text-lg transition-colors duration-300"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
         >
           Find Us on Google Maps
         </a>
