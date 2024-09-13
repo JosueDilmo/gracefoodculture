@@ -50,8 +50,6 @@ const config: Config = {
           600: "#F6F2E8",
           700: "#FAF9F5",
           800: "#FEFDFC",
-          900: "#FFFFFF",
-          1000: "#161616",
         },
       },
       backgroundImage: {

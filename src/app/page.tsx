@@ -11,34 +11,39 @@ export default function Home() {
       {/* Coming Soon */}
       <p
         className="
-    animate-pulse tracking-[6px] sm:tracking-[8px] md:tracking-[12px] 
+    animate-pulse tracking-[6px] sm:tracking-[8px] md:tracking-[32px] 
     text-xl sm:text-2xl md:text-3xl lg:text-4xl my-6 sm:my-10 md:my-12 
-    relative inline-block font-montserrat
+    relative inline-block font-montserrat font-thin
     before:absolute before:inset-0 before:animate-typewriter before:bg-grace-landing-100 
     after:absolute after:inset-0 after:w-[0.1em] after:animate-caret after:bg-white"
       >
-        Coming soon
+        coming soon
       </p>
 
       {/* Social Media QR code */}
-      <div className="bg-grace-color-500 -border-4 rounded-xl">
-        <a
-          href="https://www.instagram.com/gracefoodcoffeeculture"
-          target="_blank"
-        >
-          <img
-            src="/qrcode.png"
-            alt="QR code for Grace Food & Coffee Culture social media"
-            className="w-40 sm:w-48 md:w-56"
-          />
-        </a>
+      <div className="flex flex-col items-center">
+        <div>
+          <a
+            href="https://www.instagram.com/gracefoodcoffeeculture"
+            target="_blank"
+          >
+            <img
+              src="/qrcode.svg"
+              alt="QR code for Grace Food & Coffee Culture"
+              className="w-40 sm:w-48 md:w-56"
+            />
+          </a>
+        </div>
+        <div>
+          <img src="/insta.png" alt="Instagram logo" className="w-8 h-8" />
+        </div>
       </div>
 
       {/* Buttons - stacked on small screens, side by side on larger */}
-      <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 my-6 sm:my-8">
+      <div className="flex flex-col font-light sm:flex-row sm:space-x-16 space-y-4 sm:space-y-0 my-6 sm:my-8">
         <a
           href="contact"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-green-800 text-white font-montserrat rounded-md hover:bg-green-900 text-sm sm:text-base md:text-lg"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black border-2 border-black text-sm sm:text-base md:text-lg transition-colors duration-300"
         >
           Contact & Reservations
         </a>
@@ -46,7 +51,7 @@ export default function Home() {
           href="https://maps.app.goo.gl/Z39iUTBrLEFd4UE17"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 sm:px-6 py-2 sm:py-3 bg-green-800 text-white font-montserrat rounded-md hover:bg-green-900 text-sm sm:text-base md:text-lg"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black border-2 border-black text-sm sm:text-base md:text-lg transition-colors duration-300"
         >
           Find Us on Google Maps
         </a>

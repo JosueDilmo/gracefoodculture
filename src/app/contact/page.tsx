@@ -41,14 +41,14 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-grace-landing-100 text-white font-montserrat flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-grace-color-100 text-white font-montserrat flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <div>
-          <h2 className="mt-6 text-center text-3xl text-white font-normal font-montserrat ">
+          <h2 className="mt-6 text-center text-3xl text-white font-light font-montserrat ">
             Contact & Reservations
           </h2>
         </div>
-        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6 font-light">
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
               <label htmlFor="name" className="sr-only">
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-grace-color-200 focus:border-grace-color-200 focus:z-10 sm:text-sm"
                 placeholder="Full Name"
               />
             </div>
@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-grace-color-200 focus:border-grace-color-200 focus:z-10 sm:text-sm"
                 placeholder="Email address"
               />
             </div>
@@ -92,7 +92,7 @@ const Contact: React.FC = () => {
                 required
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-grace-color-200 focus:border-grace-color-200 focus:z-10 sm:text-sm"
                 placeholder="Your Message"
                 rows={4}
               />
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-green-800 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className="group relative w-full flex justify-center px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black border-2 border-black text-sm sm:text-base md:text-lg transition-colors duration-300"
               disabled={status === "loading"}
             >
               {status === "loading" ? "Sending..." : "Send Message"}
@@ -109,9 +109,7 @@ const Contact: React.FC = () => {
           </div>
 
           {status === "success" && (
-            <p className="text-green-700 text-center">
-              Message sent successfully!
-            </p>
+            <p className="text-black text-center">Message sent successfully!</p>
           )}
           {status === "error" && (
             <p className="text-red-700 text-center">{errorMessage}</p>
