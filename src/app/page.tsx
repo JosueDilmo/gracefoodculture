@@ -48,7 +48,7 @@ export default function Home() {
           Contact & Reservations
         </a>
         <a
-          href="https://maps.app.goo.gl/Z39iUTBrLEFd4UE17"
+          href="https://maps.app.goo.gl/pVvyjgYrWiWx4Xsk9"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
