@@ -1,41 +1,25 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-grace-color-100 text-white font-montserrat px-4 md:px-8">
-      {/* Logo GRACE */}
-      <img
-        src="/GFC.png"
-        alt="Grace Food & Coffee Culture logo"
-        className="w-full sm:w-48 md:w-72 lg:w-96 xl:w-[400px] mx-auto mt-4 sm:mt-6 lg:mt-8"
-      />
+      {/* Logo and QR Code Section */}
+      <div className="flex justify-between items-center w-full max-w-4xl">
+        {/* Logo GRACE */}
+        <img
+          src="/GFC.png"
+          alt="Grace Food & Coffee Culture logo"
+          className="w-48 md:w-72 lg:w-96 xl:w-[400px]"
+        />
 
-      {/* Coming Soon 
-      <p
-        className="
-    animate-pulse tracking-[6px] sm:tracking-[8px] md:tracking-[32px] 
-    text-xl sm:text-2xl md:text-3xl lg:text-4xl my-6 sm:my-10 md:my-12 
-    relative inline-block font-montserrat font-thin
-    before:absolute before:inset-0 before:animate-typewriter before:bg-grace-color-100 
-    after:absolute after:inset-0 after:w-[0.1em] after:animate-caret after:bg-white"
-      >
-        coming soon
-      </p>*/}
-
-      {/* Social Media QR code */}
-      <div className="flex flex-col items-center">
-        <div>
-          <a
-            href="https://www.instagram.com/gracefoodcoffeeculture"
-            target="_blank"
-          >
+        {/* Social Media QR Code */}
+        <div className="flex flex-col items-center">
+          <a href="https://www.instagram.com/gracefoodcoffeeculture" target="_blank" rel="noopener noreferrer">
             <img
               src="/qrcode.svg"
               alt="QR code for Grace Food & Coffee Culture"
               className="w-40 sm:w-48 md:w-56"
             />
           </a>
-        </div>
-        <div>
-          <img src="/insta.png" alt="Instagram logo" className="w-8 h-8" />
+          <img src="/insta.png" alt="Instagram logo" className="w-8 h-8 mt-2" />
         </div>
       </div>
 
