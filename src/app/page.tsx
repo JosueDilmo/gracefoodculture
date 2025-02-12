@@ -8,7 +8,7 @@ export default function Home() {
         className="w-full sm:w-48 md:w-72 lg:w-96 xl:w-[400px] mx-auto mt-4 sm:mt-6 lg:mt-8"
       />
 
-      {/* Coming Soon */}
+      {/* Coming Soon 
       <p
         className="
     animate-pulse tracking-[6px] sm:tracking-[8px] md:tracking-[32px] 
@@ -18,7 +18,7 @@ export default function Home() {
     after:absolute after:inset-0 after:w-[0.1em] after:animate-caret after:bg-white"
       >
         coming soon
-      </p>
+      </p>*/}
 
       {/* Social Media QR code */}
       <div className="flex flex-col items-center">
