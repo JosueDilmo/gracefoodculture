@@ -1,17 +1,17 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-grace-color-100 text-white font-montserrat px-4 md:px-8">
-      {/* Logo and QR Code Section */}
-      <div className="flex flex-col justify-between items-center w-full max-w-4xl">
         {/* Logo GRACE */}
+      <div className="flex justify-center mt-8 w-full max-w-4xl">
         <img
           src="/GFC.png"
           alt="Grace Food & Coffee Culture logo"
           className="w-48 md:w-72 lg:w-96 xl:w-[400px]"
         />
+        </div>
 
         {/* Social Media QR Code */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center mt-8">
           <a href="https://www.instagram.com/gracefoodcoffeeculture" target="_blank" rel="noopener noreferrer">
             <img
               src="/qrcode.svg"
@@ -21,7 +21,6 @@ export default function Home() {
           </a>
           <img src="/insta.png" alt="Instagram logo" className="w-8 h-8 mt-2" />
         </div>
-      </div>
 
       {/* Buttons - stacked on small screens, side by side on larger */}
       <div className="flex flex-col font-light sm:flex-row sm:space-x-16 space-y-4 sm:space-y-0 my-6 sm:my-8">
