@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-grace-color-100 text-white font-montserrat px-4 md:px-8">
       {/* Logo and QR Code Section */}
-      <div className="flex justify-between items-center w-full max-w-4xl">
+      <div className="flex flex-col justify-between items-center w-full max-w-4xl">
         {/* Logo GRACE */}
         <img
           src="/GFC.png"
