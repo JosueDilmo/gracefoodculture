@@ -23,11 +23,12 @@ export default function Home() {
         </div>
 
       {/* Buttons - stacked on small screens, side by side on larger */}
-      <div className="flex flex-col font-light sm:flex-row sm:space-x-16 space-y-4 sm:space-y-0 my-6 sm:my-8">
+      <div className="flex flex-col gap-4 items-center font-light mt-6 mb-4 sm:mb-8 sm:mt-8">
+        <div className="grid grid-cols-2 gap-4 items-center ">
         <a
           href="contact"
           className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
-        >
+          >
           Contact & Reservations
         </a>
         <a
@@ -35,10 +36,18 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
-        >
+          >
           Find Us on Google Maps
         </a>
-      </div>
+          </div>
+        <a
+          href="menu"
+          rel="noopener noreferrer"
+          className="px-4 sm:px-6 py-2 sm:py-3 bg-black text-white font-montserrat rounded-2xl hover:bg-white hover:text-black text-sm sm:text-base md:text-lg transition-colors duration-300"
+          >
+          See Our Menu
+        </a>
+          </div>
 
       {/* Address */}
       <div className="my-6 sm:my-8">
