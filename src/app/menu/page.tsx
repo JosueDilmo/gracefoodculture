@@ -1,12 +1,20 @@
-import React from "react";
-
-const MenuPage: React.FC = () => {
+const MenuPage = () => {
   return (
-        <img
-          src="/menu.png"
-          alt="Grace Food & Coffee Culture menu"
-          />
-  );
+    <div className="h-dvh w-dvw flex justify-center items-center">
+      { /** Image for mobile **/}
+      <img
+        src="/menu.png"
+        alt="Menu"
+        className="object-center h-dvh w-dvh md:hidden"
+        />
+        { /** Image for desktop **/}
+      <img
+        src="/menuDesk.jpeg"
+        alt="Menu"
+        className="object-center h-dvh w-dvh hidden md:block"
+        />
+    </div>
+    );
 };
 
 export default MenuPage;
